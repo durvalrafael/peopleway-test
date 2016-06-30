@@ -1,0 +1,90 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-atendentes {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -88px;
+  width: 30px;
+  height: 30px;
+}
+.icon-cadastros {
+  background-image: url(../img/sprite.png);
+  background-position: -111px 0px;
+  width: 30px;
+  height: 30px;
+}
+.icon-consultas {
+  background-image: url(../img/sprite.png);
+  background-position: -30px -88px;
+  width: 30px;
+  height: 30px;
+}
+.icon-contatar {
+  background-image: url(../img/sprite.png);
+  background-position: -111px -30px;
+  width: 30px;
+  height: 30px;
+}
+.icon-historico {
+  background-image: url(../img/sprite.png);
+  background-position: -80px 0px;
+  width: 31px;
+  height: 32px;
+}
+.icon-home {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -56px;
+  width: 31px;
+  height: 32px;
+}
+.icon-intervalo {
+  background-image: url(../img/sprite.png);
+  background-position: -90px -88px;
+  width: 30px;
+  height: 30px;
+}
+.icon-logo {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 49px;
+  height: 56px;
+}
+.icon-off {
+  background-image: url(../img/sprite.png);
+  background-position: -31px -56px;
+  width: 31px;
+  height: 32px;
+}
+.icon-on {
+  background-image: url(../img/sprite.png);
+  background-position: -62px -56px;
+  width: 31px;
+  height: 32px;
+}
+.icon-sair {
+  background-image: url(../img/sprite.png);
+  background-position: -60px -88px;
+  width: 30px;
+  height: 30px;
+}
+.icon-tempo {
+  background-image: url(../img/sprite.png);
+  background-position: -49px 0px;
+  width: 31px;
+  height: 32px;
+}
