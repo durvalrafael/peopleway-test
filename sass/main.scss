@@ -1,0 +1,113 @@
+body{
+    background: #d2d3d5;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h1{
+    font-size: 25px;
+    color: #186d89;
+    text-transform: uppercase;
+}
+.title-menu {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-meta {
+    background: white;
+    padding: 10px 0px;
+}
+.navbar-default{
+    background: #3ccaf3;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+.navbar-nav{
+    max-height: 80px;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.active>a{
+    box-shadow: none;
+    background: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    color: #053c54;
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #053c54;
+}
+
+// CHARTS
+#chamado
+{
+    height: 280px;
+    max-width: 100%;
+    margin: 0;
+    border: 1px solid #87898d;
+    overflow: hidden;
+}
+
+// Chart Legend
+.chart-title{
+    background: #0888bf;
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #87898d;
+}
+.legend-holder{
+    padding: 10px 1px 10px 10px;
+    background: #0888bf;
+    color: white;
+    position: relative;
+    margin-bottom: 10px;
+}
+.legend-holder .value{
+    float: right;
+    background: white;
+    color: #3b3b3b;
+    position: absolute;
+    padding: 9px;
+    top: 1px;
+    right: 1px;
+}
+
+
+
+// FORM
+
+.form-control{
+    border: 1px solid #8c9197;
+    border-radius: 0;
+}
+
+// Icon
+*[class^="icon-"] {
+    margin: auto;
+}
+
+.main-footer{
+    padding: 50px;
+    background: white;
+    margin-top: 100px;
+}
+
+.license{
+    text-align: center;
+    margin: auto;
+    display: block;
+    p{
+        text-align: center;
+    }
+
+}

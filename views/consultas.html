@@ -1,0 +1,47 @@
+<div class="title-menu" ng-controller="QueryController">
+    <div class="container">
+        <h1>{{title}}</h1>
+    </div>
+</div>
+<div class="container" ng-controller="QueryController">
+
+
+
+    <div class="row form-group">
+        <div class="col-xs-6">
+            <select class="selectpicker form-control">
+              <option>Selecione um Operador</option>
+              <option>Ketchup</option>
+              <option>Relish</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8">
+            <div class="chart-title">
+                FABIO NETO
+            </div>
+
+            <div id="chamados" style="height: 280px; max-width: 100%; margin: 0"></div>
+        </div>
+        <div class="col-xs-4">
+
+
+        <div class="legends" ng-repeat="(key, chamado) in chamados.legends">
+
+            <div class="legend-holder" style="background-color: {{chamados.colors[key]}}">
+                <div class="legend">{{chamado[0]}}</div>
+                <div class="value">{{chamado[1]}}</div>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>TMA - tempo médio de atendimento</h2>
+            <div id="tma" style="height: 280px; max-width: 100%; margin: 0"></div>
+        </div>
+    </div>
+</div>
